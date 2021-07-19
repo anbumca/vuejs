@@ -1,0 +1,4 @@
+context:
+  propsData: 'sample datas'
+  title: 'title of the component'
+notes: 'These are some **notes** about the component'

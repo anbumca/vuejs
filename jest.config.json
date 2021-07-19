@@ -1,0 +1,47 @@
+{
+  "testMatch": [
+    "**/**/*.spec.js"
+  ],
+  "testURL": "http://localhost:3000/index.html",
+  "modulePathIgnorePatterns": [
+    "<rootDir>[/\\\\](build|docs|node_modules|scripts)[/\\\\]",
+    "<rootDir>/packages/"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.js",
+    "src/**/*.vue"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "vue"
+  ],
+  "moduleNameMapper": {
+    "^vue$": "vue/dist/vue.common.js"
+  },
+  "moduleDirectories": ["node_modules", "./src/Foundation/"],
+  "setupFiles": [
+    "<rootDir>/tasks/jest/polyfill.request-animation-frame.js",
+    "<rootDir>/tasks/jest/polyfill.matchMedia.js",
+    "jest-localstorage-mock"
+  ],
+  "snapshotSerializers": [
+    "jest-serializer-vue"
+  ],
+  "unmockedModulePathPatterns": [
+    "./node_modules/jasmine-reporters"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "transform": {
+    "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+    ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+  },
+  "reporters": ["default", ["jest-junit", { "output": "coverage/junit.xml" }]],
+  "coverageReporters": ["text", "lcov", "cobertura"]
+}

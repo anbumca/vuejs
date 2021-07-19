@@ -1,0 +1,27 @@
+{
+  "title": "L'Oreal Website Factory Modules",
+  "opts": {
+    "recurse": true,
+    "destination": "./jsdoc/"
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [
+      "jsdoc",
+      "closure"
+    ]
+  },
+  "source": {
+    "include": ["./src/Feature"],
+    "includePattern": ".+\\.js?$",
+    "excludePattern": ".+\\entry.js?$"
+  },
+  "plugins": [ "node_modules/jsdoc-vue" ],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles": true
+    }
+  }
+}

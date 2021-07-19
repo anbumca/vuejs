@@ -1,0 +1,22 @@
+﻿@using Loreal.Feature.MultipleClickToBuy.Constants;
+@using Sitecore.Globalization;
+@model Loreal.Feature.MultipleClickToBuy.Models.MCTBProductBuyNowListJson
+
+@if (Model != null && Model.Json != null && Model.IsValid)
+{
+    <div id="rfp_component_instance_app" class="rfp-click-to-buy-list">
+        <rfp-mctb-product-list :product-list-json='@Model.Json'
+                               buy-now="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "Buy_now")"
+                               carousel-header="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "Retailer_Header")"
+                               buy-online-button-text="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "Buy_Online")"
+                               buy-offline-button-text="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "Buy_Offline")"
+                               star-inactive-color="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "RR_Star_Color_InActive")"
+                               star-active-color="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "RR_Star_Color_Active")"
+                               :star-size="@Translate.TextByDomain(MCTBDictionary.MCTBDomain, "RR_Star_Size")">
+        </rfp-mctb-product-list>
+    </div>
+}
+else
+{
+    <rfp-mctb-error error-message="@Model.ErrorMessage"></rfp-mctb-error>
+}
