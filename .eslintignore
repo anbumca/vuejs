@@ -1,0 +1,25 @@
+node_modules/
+src/Foundation/SXA/code/sitecore/shell/client/Sitecore/
+src/Foundation/SXA/code/sitecore/shell/Applications/WebEdit/
+src/**/*.spec.js
+src/**/jquery*.js
+src/Project/Common/code/Scripts/Plugins
+
+#Components maintained by refApp
+src/Project/Common/code/Scripts/admin-entry.js
+src/Feature/StoreLocator/code/Refapp-build/
+src/Feature/StoreLocator/code/Scripts/
+src/Project/Common/code/Scripts/Components/DataExport/
+src/Project/Common/code/Scripts/Components/storeLocator/
+src/Project/Common/code/Scripts/StoreLocatorAdmin/
+src/Project/Common/code/Scripts/Components/StoreLocatorAdmin/
+src/Project/Common/code/Scripts/Components/Storelist/
+src/Project/Common/code/Scripts/Components/CurrentLocation
+src/Project/Common/code/Scripts/Components/GoogleMap/
+src/Project/Common/code/Scripts/Components/Locationsearch/
+src/Project/Common/code/Scripts/Components/Mixins/GoogleAPI.js
+src/Feature/RatingsReviews/code/Scripts/
+src/Project/Common/code/Scripts/Import-export-admin-bundle.js
+src/Feature/RatingsReviews/code/Refapp-build/Rating-admin-bundle.js
+
+

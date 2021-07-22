@@ -1,0 +1,65 @@
+{
+    "currentWebsite": "Garnier",
+    "siteUrl": "https://wsf-master-Garnier",
+    "outputDir": "<rootDir>/build",
+    "authConfigFilePath": "<websiteDir>/App_config/Include/Unicorn/Unicorn.UI.config",
+    "srcDir": "<rootDir>/src",
+    "foundationDir": "<srcDir>/Foundation",
+    "foundationScriptsDir": "<foundationDir>/Core/code/Scripts",
+    "featureDir": "<srcDir>/Feature",
+    "projectDir": "<srcDir>/Project",
+    "currentProjectDir": "<projectDir>/<currentWebsite>/code",
+    "websiteDir": "<outputDir>/Website",
+    "websiteConfigDir": "<websiteDir>/App_Config",
+    "websiteViewsDir": "<websiteDir>/Views",
+    "websiteLibrariesDir": "<websiteDir>/bin",
+    "themesDir": "<websiteDir>/themes",
+    "licensePath": "<rootDir>/license.xml",
+    "solutionName": "Garnier",
+    "buildToolsVersion": "15",
+    "masterWebsite": "dmi",
+    "solutionRoot": "<rootDir>",
+    "buildConfiguration": "Debug",
+    "buildMaxCpuCount": 0,
+    "buildVerbosity": "minimal",
+    "buildNodeReuse": false,
+    "buildLogCommand": false,
+    "excludeFilesFromDeployment": [
+        "packages.config"
+    ],
+    "buildTargets": [
+        "Build"
+    ],
+    "buildPaths": [
+        "<solutionPath>"
+    ],
+    "buildPlatform": "Any CPU",
+    "buildProperties": {},
+    "publishTargets": [
+        "Build"
+    ],
+    "publishPaths": [
+        "<solutionPath>"
+    ],
+    "publishPlatform": "Any CPU",
+    "publishProperties": {
+        "DeployOnBuild": "true",
+        "DeployDefaultTarget": "WebPublish",
+        "WebPublishMethod": "FileSystem",
+        "DeleteExistingFiles": "false",
+        "_FindDependencies": "false"
+    },
+    "bundle": {
+        "cssBundleName": "bundle.css",
+        "cssNoFontsBundleName": "bundle-nofonts.css",
+        "jsBundleName": "bundle.js",
+        "jsMapName": "bundle.map.js"
+    },
+    "autoPrefixerBrowsers": [
+        "last 2 versions",
+        "ie >= 10",
+        "Safari >= 9",
+        "iOS >= 8"
+    ],
+    "type": "literal"
+}

@@ -40,6 +40,7 @@
     "jest-junit": "^6.4.0",
     "jest-localstorage-mock": "^2.4.0",
     "jest-serializer-vue": "^2.0.2",
+    "lodash": "^4.17.21",
     "sinon": "^7.4.1",
     "vue": "^2.5.16",
     "vue-jest": "^3.0.4",
