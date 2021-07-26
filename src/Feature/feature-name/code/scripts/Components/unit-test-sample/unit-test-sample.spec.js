@@ -16,4 +16,5 @@ test('Hello', () => {
 
   // assert the error has gone away
   expect(wrapper.find('.error').exists()).toBe(true)
+  expect(wrapper).toMatchSnapshot();
 })

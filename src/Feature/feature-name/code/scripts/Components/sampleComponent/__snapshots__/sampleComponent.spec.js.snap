@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sampleComponent 1`] = `
+<div class="static-class-name rfp-mctb">
+  <div></div>
+  <div></div>
+</div>
+`;

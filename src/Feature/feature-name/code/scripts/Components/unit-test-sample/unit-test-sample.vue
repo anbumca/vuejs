@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Hello',
+  name: 'unit-test-sample',
   data () {
     return {
       username: ''

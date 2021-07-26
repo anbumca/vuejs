@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hello 1`] = `
+<div><input>
+  <div class="error">
+    Please enter a longer username
+  </div>
+</div>
+`;

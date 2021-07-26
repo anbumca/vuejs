@@ -9,4 +9,5 @@ test('sampleComponent', () => {
   wrapper.setProps({ data: 'data',title: 'title' });
 
   wrapper.setData({ datas: ['a', 'b', 'c', 'd'] });
+  expect(wrapper).toMatchSnapshot();
 })
