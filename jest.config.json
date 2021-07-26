@@ -2,14 +2,20 @@
   "testMatch": [
     "**/**/*.spec.js"
   ],
-  "testURL": "http://localhost:3000/index.html",
+  "verbose": true,
+  "testURL": "http://localhost",
   "modulePathIgnorePatterns": [
-    "<rootDir>[/\\\\](build|docs|node_modules|scripts)[/\\\\]",
-    "<rootDir>/packages/"
+    "<rootDir>[/\\\\](build|docs|node_modules|packages)[/\\\\]"
   ],
   "collectCoverageFrom": [
     "src/**/*.js",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "!src/**/entry.js",
+    "!src/Project/Kerastase/code/sitecore modules/**/*.js",
+    "!src/Project/Kerastase/code/Scripts/Common.js",
+    "!src/**/index.js",
+    "!<rootDir>/node_modules/",
+    "!<rootDir>/packages/"
   ],
   "moduleFileExtensions": [
     "js",
@@ -20,10 +26,14 @@
   },
   "moduleDirectories": ["node_modules", "./src/Foundation/"],
   "setupFiles": [
-    "<rootDir>/tasks/jest/polyfill.request-animation-frame.js",
-    "<rootDir>/tasks/jest/polyfill.matchMedia.js",
+    "<rootDir>/Tasks/jest/polyfill.request-animation-frame.js",
+    "<rootDir>/Tasks/jest/polyfill.matchMedia.js",
+    "<rootDir>/Tasks/jest/setup.eventBus.js",
+    "<rootDir>/Tasks/jest/setup.stub.js",
+    "<rootDir>/Tasks/jest/setup.geolocation.js",
     "jest-localstorage-mock"
   ],
+  "setupTestFrameworkScriptFile": "./setup-jasmine-env.js",
   "snapshotSerializers": [
     "jest-serializer-vue"
   ],

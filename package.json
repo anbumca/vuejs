@@ -95,7 +95,7 @@
     "jasmine": "^2.5.2",
     "jasmine-core": "^2.5.2",
     "jasmine-reporters": "^2.2.1",
-    "jest": "^20.0.3",
+    "jest": "^20.0.4",
     "jest-serializer-html": "^4.0.0",
     "jest-serializer-vue": "^2.0.2",
     "jest-vue-preprocessor": "^0.2.0",
