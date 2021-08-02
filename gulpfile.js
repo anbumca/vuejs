@@ -22,7 +22,7 @@ gulp.task('fonts', getTask('fonts'));
 gulp.task('images', getTask('images'));
 gulp.task('icons', getTask('icons'));
 
-gulp.task('build', ['scripts', 'styles', 'images', 'eslint']);
+gulp.task('build', ['scripts', 'styles', 'images']);
 
 /** Default tasks */
 gulp.task('watch', () => {

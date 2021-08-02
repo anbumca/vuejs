@@ -70,7 +70,7 @@ const onGetProjectcode = (files) => {
  */
 const onGetFondationFeatureCode = (paths) => {
   FeaturesFondationsSrc = paths
-  return globby([`${config.directories.featureDirectory}**/*/entry.js`])
+  return globby([`${config.directories.projectDirectory}**/*/entry.js`])
     .then(onGetProjectcode, onError)
 };
 

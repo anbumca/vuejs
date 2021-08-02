@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Job.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CourseCategoryURI": "https://loreal-ppdstaging.docebosaas.com/learn/v1/categories?",
+        "PrivateKey": "private_key_test",
+        "DoceboApiServiceUrl": "https://loreal-ppdstaging.docebosaas.com",
+        "PublicKey": "public_key_test"
+      }
+    }
+  }
+}
