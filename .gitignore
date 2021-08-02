@@ -20,7 +20,6 @@ lib/System/*
 vars.user.cmd
 /.vs
 /target
-/node_modules
 /jsdoc
 /PhantomJS_2.1.1_(Windows_8.0.0)/
 /reports/
@@ -30,7 +29,6 @@ temp/
 *.ncrunchsolution
 .vscode
 nCrunchTemp*.*
-build/
 !build/website/SitecoreRunner.csproj
 # Created by http://www.gitignore.io
 
@@ -218,7 +216,6 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 nCrunchTemp*.*
-build/
 /node.exe
 /node_etw_provider.man
 /node_perfctr_provider.man
@@ -231,7 +228,6 @@ Microsoft.CodeDom.Providers.DotNetCompilerPlatform.*
 
 #exclude gulp dest files
 /dist
-*node_modules
 /lib/license.xml
 /coverage
 /reports/coverage/lcov-report/Scripts/Components/Locationsearch/index.html
