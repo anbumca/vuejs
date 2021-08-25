@@ -10,7 +10,7 @@
     <PackageReference Include="Generic.Model" Version="1.0.3" />
     <PackageReference Include="IdentityServer4.EntityFramework" Version="4.1.2" />
     <PackageReference Include="JWT" Version="8.2.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.7" />
